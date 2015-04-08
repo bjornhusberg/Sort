@@ -1,0 +1,70 @@
+
+body {
+  background: #999;
+  color: white;
+  font-family: sans-serif;
+}
+
+#setup {
+  text-align: center;
+}
+
+#setup textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 600px;
+}
+
+#sorttool {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+input {
+  font-size:40px;
+  width:100%;
+  height: 100px;
+  -webkit-appearance:none;
+  margin:0 0 20px 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+}
+
+a, a:focus, a:visited {
+  color: white;
+  font-size:20px;
+  text-decoration:none;
+}
+
+a#done {
+  float: right;
+}
+
+div.sorted {
+}
+
+#backlog {
+  margin-top: 10px;
+}
+
+#backlog div {
+  color: #353535;
+  text-align: center;
+}
+
+#backlog div.sorted {
+  color: #fff;
+}
+
+#backlog div.insert {
+  color: #f00;
+}
